@@ -29,4 +29,4 @@ jobs:
           context: ./CNAD_CALCI-main
           file: ./CNAD_CALCI-main/frontend.Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USER }}/calculator:latest
+          tags: nexarvortex007/calculator:latest
